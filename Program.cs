@@ -20,6 +20,7 @@ var app = builder.Build();
 //app.UseHttpsRedirection();
 
 app.MapGet("/", () => "Hello World");
+app.MapGet("/teste", () => "Hello World TESTE");
 app.Run();
 
 
